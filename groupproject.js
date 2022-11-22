@@ -680,6 +680,8 @@ function hide() {
     document.getElementById('foodq').hidden = true;
     document.getElementById('food1').hidden = true;
     document.getElementById('food2').hidden = true;
+    document.getElementById('answer').hidden = true;
+
 
 }
 
@@ -696,7 +698,12 @@ food1.onclick = function () {
     answer.onclick = function () {
 
         hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
+        playertotalmessage();
+        getrightt();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
 
     }
 
@@ -707,7 +714,13 @@ food2.onclick = function () { //FIXME
     document.getElementById('food2').disabled = true;
     playerstotal = playerstotal - 100;
     answer.onclick = function () {
+        playertotalmessage();
         hide();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
@@ -715,56 +728,6 @@ food2.onclick = function () { //FIXME
 }
 
 
-C2Q1.onclick = function () //category 2 question 1
-{
-restart(); //shows the play again button
-checkAnswer(); //shows answer button
-
-var foodq = document.getElementById('foodq'); //Ackee can be classified as a?
-var food1 = document.getElementById('food1'); //Vegetable
-var food2 = document.getElementById('food2');//Fruit
-
-document.getElementById('2Q1').hidden = true; //hides question button
-document.getElementById('foodq').hidden = false;  //hides the questions and answers are covered
-document.getElementById('food1').hidden = false;
-document.getElementById('food2').hidden = false;
-
-function hide() {
-    document.getElementById('foodq').hidden = true;
-    document.getElementById('food1').hidden = true;
-    document.getElementById('food2').hidden = true;
-
-}
-
-function disabledb() {
-    document.getElementById('food1').disabled = true;
-    document.getElementById('food2').disabled = true;
-
-}
-
-food1.onclick = function () {
-    disabledb();
-    document.getElementById('food1').disabled = true;
-    playerstotal = playerstotal + 100;
-    answer.onclick = function () {
-
-        hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
-
-    }
-
-}
-
-food2.onclick = function () { //FIXME
-    disabledb();
-    document.getElementById('food2').disabled = true;
-    answer.onclick = function () {
-        hide();
-    }
-}
-
-
-}
 
 C2Q2.onclick = function () //category 2 question 2
 {
@@ -784,6 +747,7 @@ function hide() {
     document.getElementById('soupq').hidden = true;
     document.getElementById('soup1').hidden = true;
     document.getElementById('soup2').hidden = true;
+    document.getElementById('answer').hidden = true;
 
 }
 
@@ -796,14 +760,15 @@ function disabledb() {
 soup1.onclick = function () {
     disabledb();
     document.getElementById('soup1').disabled = true;
-    playerstotal = playerstotal + 100;
+    playerstotal = playerstotal + 200;
     answer.onclick = function () {
+        hide();
         playertotalmessage();
-        hide();
         getrightt();
-
-        hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
 
     }
 
@@ -811,9 +776,16 @@ soup1.onclick = function () {
 
 soup2.onclick = function () { //FIXME
     disabledb();
+    playerstotal = playerstotal - 200;
     document.getElementById('soup2').disabled = true;
     answer.onclick = function () {
+        playertotalmessage();
         hide();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
@@ -839,6 +811,7 @@ function hide() {
     document.getElementById('dipq').hidden = true;
     document.getElementById('dip1').hidden = true;
     document.getElementById('dip2').hidden = true;
+    document.getElementById('answer').hidden = true;
 
 }
 
@@ -855,11 +828,13 @@ dip1.onclick = function () {
     answer.onclick = function () {
 
         hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
         playertotalmessage();
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
+        
 
     }
 
@@ -872,8 +847,11 @@ dip2.onclick = function () { //FIXME
     answer.onclick = function () {
         playertotalmessage();
         hide();
-        getrightt();
-        hide();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
@@ -957,6 +935,7 @@ function hide() {
     document.getElementById('stampq').hidden = true;
     document.getElementById('stamp1').hidden = true;
     document.getElementById('stamp2').hidden = true;
+    document.getElementById('answer').hidden = true;
 
 }
 
@@ -973,10 +952,12 @@ stamp1.onclick = function () {
     answer.onclick = function () {
 
         hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
+        playertotalmessage();
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
 
     }
 
@@ -987,10 +968,13 @@ stamp2.onclick = function () { //FIXME
     document.getElementById('stamp2').disabled = true;
     playerstotal = playerstotal - 500;
     answer.onclick = function () {
+        hide();
         playertotalmessage();
-        hide();
         getrightt();
-        hide();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
