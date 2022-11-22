@@ -21,7 +21,7 @@ function register(){
     PlayersData2= [Fname + " "+ Lname]; //passes data from array into textarea
     
 
-    document.getElementById("demo").innerHTML = PlayersData; //Prints data from array
+    // document.getElementById("demo").innerHTML = PlayersData; //Prints data from array
     
     document.getElementById("playername").innerHTML = PlayersData2;
    
@@ -86,16 +86,12 @@ function checkAnswer() {
 
 }
 
-function restart() {
-    var playerstotal = 100;
-    var playagain = document.getElementById("playagain");
-    document.getElementById('playagain').hidden = false;
+var tableb = document.getElementsByClassName("tableb"); //element controls all elements with the class name test
 
-    playagain.onclick = function () {
-        playGame();
-    }
 
-}
+
+
+
 
 
 function showAll() {
@@ -141,9 +137,9 @@ var downloadTimer = setInterval(function () {
         clearInterval(downloadTimer);
         document.getElementById('countdown').innerHTML = 0;
 
-        for (var x = 0; x < element.length; x++) {
-            element[x].hidden = true;
-        }
+        // for (var x = 0; x < element.length; x++) {
+        //     element[x].hidden = true;
+        // }
 
     } else {
         document.getElementById('countdown').innerHTML = timeleft;
@@ -182,6 +178,7 @@ if (answered == 21){
 }
 
 }
+
 
 
 
@@ -265,9 +262,39 @@ function findPercentageScore(){///displays  user name and percentage on form
      +"\n"+ "Right Answers:"+ getright + "\n"+
      "Wrong Answers:"+ getwrong + "\n" + 
      "Percentage:" + percentage + "%" + "\n" +
-    "Date:" + Date()];
+     "Points:" + playerstotal + "\n" +
+    "Date Played:" + Date()];
     document.getElementById("showpercentage").innerHTML = PlayersData3;
 }
+
+function restart() {
+    //getright--;
+    
+    var playagain = document.getElementById("playagain");
+    document.getElementById('playagain').hidden = false;
+
+    playagain.onclick = function () {
+        for (var x = 0; x < tableb.length; x++) {
+            tableb[x].hidden = false;
+
+            getright = 0;
+             getwrong = 0;
+            answered = 0;
+             percentage = 0;
+            playerstotal = 100;
+
+            document.getElementById("questionsamount").innerHTML = getright;
+            document.getElementById("wrong").innerHTML = getwrong;
+            document.getElementById("answered").innerHTML = answered;
+            document.getElementById("Percentage").innerHTML = percentage;
+            document.getElementById("playertotal").innerHTML = playerstotal;
+        }
+
+
+    }
+
+}
+
 
 
 
@@ -276,7 +303,7 @@ C1Q1.onclick = function () //category 1 question 1
 {
 restart(); //shows the play again button
 checkAnswer(); //shows answer button
-timer(); //brings up timer
+//timer(); //brings up timer
 
 
 
@@ -385,7 +412,7 @@ parish4.onclick = function () {
 C1Q2.onclick = function () {
 restart();
 checkAnswer();
-timer();
+//timer();
 
 
 function playertotalmessage() { //displays to user how much points they have
@@ -877,6 +904,7 @@ function hide() {
     document.getElementById('duckq').hidden = true;
     document.getElementById('duck1').hidden = true;
     document.getElementById('duck2').hidden = true;
+    document.getElementById('answer').hidden = true;
 
 }
 
@@ -893,11 +921,12 @@ duck1.onclick = function () {
     answer.onclick = function () {
 
         hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
         playertotalmessage();
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
 
     }
 
@@ -910,7 +939,11 @@ duck2.onclick = function () { //FIXME
     answer.onclick = function () {
         playertotalmessage();
         hide();
-        getrightt();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
@@ -1030,11 +1063,11 @@ winner3.onclick = function () {
     answer.onclick = function () {
 
         hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
+        playertotalmessage();
         getrightt();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 
@@ -1045,11 +1078,12 @@ winner2.onclick = function () { //FIXME
     document.getElementById('winner2').disabled = true;
     playerstotal = playerstotal - 100;
     answer.onclick = function () {
+        playertotalmessage();
         hide();
         getwrongg();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 
@@ -1112,11 +1146,11 @@ schoolboy1.onclick = function () {
     disabledb();
     answer.onclick = function () {
         hide();
-        document.getElementById("playertotal").innerHTML = playerstotal;
+        playertotalmessage();
         getrightt();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 }
@@ -1125,11 +1159,12 @@ schoolboy2.onclick = function () {
     document.getElementById('schoolboy2').disabled = true;
     disabledb();
     answer.onclick = function () {
+        playertotalmessage();
         hide();
         getwrongg();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 }
@@ -1139,11 +1174,12 @@ schoolboy3.onclick = function () {
     disabledb();
     document.getElementById('schoolboy3').disabled = true;
     answer.onclick = function () {
+        playertotalmessage();
         hide();
         getwrongg();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 }
@@ -1338,12 +1374,12 @@ worldcup2.onclick = function () {
     document.getElementById('worldcup2').disabled = true;
     disabledb();
     answer.onclick = function () {
-        document.getElementById("playertotal").innerHTML = playerstotal;
         hide();
+        playertotalmessage();
         getrightt();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 }
@@ -1352,11 +1388,12 @@ worldcup1.onclick = function () {
     disabledb();
     playerstotal = playerstotal - 500;
     answer.onclick = function () {
+        playertotalmessage();
         hide();
         getwrongg();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 }
@@ -1365,11 +1402,12 @@ worldcup3.onclick = function () {
     disabledb();
     playerstotal = playerstotal - 500;
     answer.onclick = function () {
+        playertotalmessage();
         hide();
         getwrongg();
         Answeredd();
         percentagee();
-        playertotalmessage();
+        detection();
         findPercentageScore();
     }
 }
