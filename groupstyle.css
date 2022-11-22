@@ -83,7 +83,7 @@ label{
   }
  
  
-   table{
+   .table{
     
     
      border: 5px solid;
@@ -93,6 +93,15 @@ label{
      
      
      width: 60%;
+   }
+
+   .score{
+    border: 2px solid;
+    border-color: black;
+    border-style: solid;
+    position:absolute; left:80px; top:30px;
+    border-collapse:collapse
+   
    }
  
    th{
