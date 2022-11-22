@@ -2,15 +2,13 @@
 <html lang="en">
 
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6760354428989736"
-     crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JEOPARDY</title>
 
     <link rel="stylesheet" href="groupstyle.css">
-   
+
     <script type="text/javascript" src="groupproject.js"></script>
 
 
@@ -21,8 +19,8 @@
     <div id="form">
         <div id="gradient"></div>
 
-        <h2>WELCOME TO THE GAME OF JEOPARDY</h2>
-    
+        <h1 class="h2">WELCOME TO THE GAME OF JEOPARDY</h1>
+      </br></br></br></br>
     
         <form id="groupform" onsubmit="register()">
     
@@ -38,20 +36,28 @@
                 <br><br>
     
     
-                 <br>
+               
+    
+    
                 <label> Date of Birth
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                 </label>
                 <input type="date" id="DOB" />
     
-                <br>
-                <label>Gender: </label></br></br>
+                <br><br>
+                
+  
+                <label>Gender: &nbsp&nbsp&nbsp&nbsp&nbsp</label>
                 <input type="radio" id="gender" name="gender" /> <Label> Male </Label>
                 <input type="radio" id="gender2" name="gender" /> <Label> Female </Label></br>
     
     
                 <br>
-                <textarea id="showpercentage" rows="10" cols="20"></textarea>
+                <textarea id="showpercentage" rows="7" cols="34">Click the End Game Button to Come Back Here And View Your Stats </textarea>
+                  
+                 
+                
+                
     
     
                 </br></br>
@@ -59,19 +65,21 @@
                 <input type="submit" value="Register" id="submitbutton">
                 <input type="submit" value="Play Game" id="play" disabled onclick="playGame()">
                 <input type="submit" value="End Game" id="endgame" disabled onclick="endGame()">
-                </br>
-<!--                 <input type="reset" value="Quit" id="quit"> -->
-<!--                 <input type="submit" value="Results " id="result" onclick="findPercentageScore()"> -->
+               
+                <!-- <input type="reset" value="Quit" id="quit">
+                <input type="submit" value="Results " id="result" onclick="findPercentageScore()">
+     -->
     
+                <!-- <input type="submit" value="Show Percentage" id="showpercentage" onclick=""> -->
+                <!--<input type = "reset" value = "Quit" id ="quit" onclick = "findPercentageScore()"-->
+                </br></br>
     
             </fieldset>
             </forms>
-    
+
             <p id="demo">Player Information: </p>
+   
     </div>
-
- 
-
     <div id="jeopardy" hidden>
         <div id="gradient"></div>
 
