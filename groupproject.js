@@ -1830,10 +1830,10 @@ document.getElementById('barbieq').hidden = false;
 document.getElementById('barbie1').hidden = false;
 document.getElementById('barbie2').hidden = false;
 
-function hide() {
-    document.getElementById('barbieq').hidden = true;
-    document.getElementById('barbie1').hidden = true;
-    document.getElementById('barbie2').hidden = true;
+function disabled() {
+    document.getElementById('barbieq').disabled = true;
+    document.getElementById('barbie1').disabled = true;
+    document.getElementById('barbie2').disabled = true;
 }
 
 function hide() {
@@ -1875,6 +1875,201 @@ barbie2.onclick = function () {
 
 
 } 
+
+
+C5Q3.onclick = function () 
+{
+restart(); //shows the play again button
+checkAnswer(); //shows answer button
+//timer(); //brings up timer
+
+
+
+function unhides() {
+    document.getElementById('5Q3').hidden = true; //hides question button
+    document.getElementById('titanicq').hidden = false;  //hides the questions and answers are covered
+    document.getElementById('titanic1').hidden = false;
+    document.getElementById('titanic2').hidden = false;
+    document.getElementById('titanic3').hidden = false;
+}
+
+unhides();
+
+
+function hide() {
+    document.getElementById('titanicq').hidden = true;  
+    document.getElementById('titanic1').hidden = true;
+    document.getElementById('titanic2').hidden = true;
+    document.getElementById('titanic3').hidden = true;
+    document.getElementById('answer').hidden = true;
+
+}
+
+function disabledb() {
+
+    document.getElementById('titanic1').disabled = true;
+    document.getElementById('titanic2').disabled = true;
+    document.getElementById('titanic3').disabled = true;
+
+}
+
+titanic1.onclick = function () {
+    disabledb();
+    playerstotal = playerstotal - 300;
+
+    answer.onclick = function () //answer
+    {
+        hide();
+        playertotalmessage();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+        
+        
+    }
+
+}
+
+titanic2.onclick = function () {
+    disabledb();
+
+    playerstotal = playerstotal - 300;
+    answer.onclick = function () {
+        playertotalmessage();
+        hide();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+    }
+}
+
+titanic3.onclick = function () {
+    disabledb();
+
+
+    playerstotal = playerstotal + 300;
+    answer.onclick = function () {
+        playertotalmessage();
+        hide();
+        getrightt();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+        }
+    }
+       
+}
+
+C5Q5.onclick = function () //category 1 question 1
+{
+restart(); //shows the play again button
+checkAnswer(); //shows answer button
+//timer(); //brings up timer
+
+
+
+function unhides() {
+    document.getElementById('5Q5').hidden = true; //hides question button
+    document.getElementById('buildingq').hidden = false;  //hides the questions and answers are covered
+    document.getElementById('building1').hidden = false;
+    document.getElementById('building2').hidden = false;
+    document.getElementById('building3').hidden = false;
+    document.getElementById('building4').hidden = false;
+}
+
+unhides();
+
+
+function hide() {
+    document.getElementById('buildingq').hidden = true;
+    document.getElementById('building1').hidden = true;
+    document.getElementById('building2').hidden = true;
+    document.getElementById('building3').hidden = true;
+    document.getElementById('building4').hidden = true;
+    document.getElementById('answer').hidden = true;
+
+}
+
+function disabledb() {
+    document.getElementById('building1').disabled = true;
+    document.getElementById('building2').disabled = true;
+    document.getElementById('building3').disabled = true;
+    document.getElementById('building4').disabled = true;
+
+}
+
+building1.onclick = function () {
+    disabledb();
+    playerstotal = playerstotal - 500;
+
+    answer.onclick = function () //answer
+    {
+        hide();
+        playertotalmessage();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+        
+        
+    }
+
+}
+
+building2.onclick = function () {
+    disabledb();
+
+    playerstotal = playerstotal + 500;
+    answer.onclick = function () {
+        playertotalmessage();
+        hide();
+        getrightt();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+    }
+}
+
+building3.onclick = function () {
+    disabledb();
+    playerstotal = playerstotal - 500;
+    answer.onclick = function () {
+        playertotalmessage();
+        hide();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+    }
+}
+
+building4.onclick = function () {
+    disabledb();
+    playerstotal = playerstotal - 500;
+    answer.onclick = function () {
+        playertotalmessage();
+        hide();
+        getwrongg();
+        Answeredd();
+        percentagee();
+        detection();
+        findPercentageScore();
+    }
+}
+
+
+
+
+        
+}
 
 
 }
