@@ -1445,6 +1445,8 @@ music1.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
 
 
     }
@@ -1472,6 +1474,8 @@ music3.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
 
     }
 }
@@ -1485,6 +1489,8 @@ music4.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
 
     }
 }
@@ -1540,6 +1546,8 @@ marley1.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 marley2.onclick = function () {
@@ -1552,6 +1560,8 @@ marley2.onclick = function () {
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 marley3.onclick = function () {
@@ -1564,6 +1574,8 @@ marley3.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 marley4.onclick = function () {
@@ -1576,6 +1588,8 @@ marley4.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
@@ -1628,6 +1642,8 @@ reggae1.onclick = function () {
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 reggae2.onclick = function () {
@@ -1640,6 +1656,8 @@ reggae2.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 reggae3.onclick = function () {
@@ -1651,6 +1669,8 @@ reggae3.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 reggae4.onclick = function () {
@@ -1663,6 +1683,8 @@ reggae4.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 }
@@ -1715,6 +1737,8 @@ electric1.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 electric2.onclick = function () {
@@ -1727,6 +1751,8 @@ electric2.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 electric3.onclick = function () {
@@ -1739,6 +1765,8 @@ electric3.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 electric4.onclick = function () {
@@ -1751,6 +1779,8 @@ electric4.onclick = function () {
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
@@ -1795,6 +1825,8 @@ barbie1.onclick = function () {
         getrightt();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 barbie2.onclick = function () {
@@ -1807,6 +1839,8 @@ barbie2.onclick = function () {
         getwrongg();
         Answeredd();
         percentagee();
+        detection();
+        findPercentageScore();
     }
 }
 
