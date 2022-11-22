@@ -5,43 +5,6 @@ PlayersData2= [];
 PlayersData3= [];
 const  allPlayersdata = [];
 
-function validateForm() {
-        
-    var x = document.forms["groupform"]["fname"].value;
-    if (x == "") {
-        alert("First name must be filled out");
-        return false;
-    }
-
-    var y = document.forms["groupform"]["lname"].value;
-    if (y == "") {
-        alert("Last name must be filled out");
-        return false;
-    }
-
-    var z = document.forms["groupform"]["street"].value;
-    if (z == "") {
-        alert("You nnter a street name");
-        return false;
-    }
-    var a = document.forms["groupform"]["city"].value;
-    if (a == "") {
-        alert("You need to enter a city name");
-        return false;
-    }
-
-    var b = document.forms["groupform"]["town"].value;
-    if (b == "") {
-        alert("You must enter a town");
-        return false;
-    }
-
-    var c = document.forms["groupform"]["country"].value;
-    if (c == "") {
-        alert("You must enter a country");
-        return false;
-    }
-}
 
 
 function register(){
@@ -52,15 +15,14 @@ function register(){
     Fname = document.getElementById("fname").value;
     Lname = document.getElementById("lname").value;
     DOfB = document.getElementById("DOB").value;
-    Email = document.getElementById("email").value;
-    Street = document.getElementById("street").value;
-    City = document.getElementById("city").value;
-    Town = document.getElementById("town").value;
-    Country = document.getElementById("country").value;
     Gender = document.getElementById("gender").value;
-    Images = document.getElementById("myfile").value;
 
-    const PlayersData= [Fname ,Lname, Email, DOfB, Street, City, Town, Country, Images, Gender]; //passes data into array
+    if (document.getElementById("gender").checked) {
+        Gender = document.getElementById("gender").value;
+      }
+   
+
+    const PlayersData= [Fname + " "+ Lname+ " "+ DOfB+ " "+ Gender]; //passes data into array
     PlayersData2= [Fname + " "+ Lname]; //passes data from array into textarea
     
 
@@ -88,15 +50,8 @@ function buttoncontrols(){
     //controls inputs on the form
     document.getElementById("fname").disabled = true;
     document.getElementById("lname").disabled = true;
-    document.getElementById("email").disabled = true;
+  
     document.getElementById("DOB").disabled = true;
-    document.getElementById("street").disabled = true;
-    document.getElementById("town").disabled = true;
-    document.getElementById("city").disabled = true;
-    document.getElementById("country").disabled = true;
-    document.getElementById("edulevel").disabled = true;
-    document.getElementById("edulevel2").disabled = true;
-    document.getElementById( "myfile").disabled = true;
     document.getElementById( "gender").disabled = true;
     document.getElementById( "gender2").disabled = true;
 
@@ -312,9 +267,8 @@ document.getElementById("playertotal").innerHTML = playerstotal;
 function findPercentageScore(){///displays  user name and percentage on form 
 
     PlayersData3 = ["FirstName:" + Fname + "\n"+ "LastName:" + Lname
-     +"\n "+ "Right Answers:"+ getright + "\n "+
+     +"\n"+ "Right Answers:"+ getright + "\n"+
      "Wrong Answers:"+ getwrong + "\n" + 
-     "Town:" + Town + "\n" +
      "Percentage:" + percentage + "%" + "\n" +
     "Date:" + Date()];
     document.getElementById("showpercentage").innerHTML = PlayersData3;
