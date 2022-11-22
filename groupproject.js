@@ -26,6 +26,7 @@ function register(){
     document.getElementById("playername").innerHTML = PlayersData2;
    
    
+
     
     buttoncontrols();
    
@@ -60,6 +61,10 @@ function playGame(){
     
  }
 
+ function endgamee(){
+    window.open("index.html", "_self");
+    
+}
 
 
 
@@ -85,6 +90,7 @@ function checkAnswer() {
 
 
 }
+
 
 var tableb = document.getElementsByClassName("tableb"); //element controls all elements with the class name test
 
