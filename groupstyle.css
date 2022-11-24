@@ -1,0 +1,201 @@
+label{
+    font-weight: bold; 
+   font-family:'Times New Roman', Times, serif;
+   font-size: 16px;
+ }
+ 
+ fieldset{
+     
+     text-align: center;
+     border:black; border-width:3px; border-style:solid;
+     margin-left: 35%;
+     margin-right:35%;
+     width: 30%
+ }
+ .h2{
+     text-align: center;
+     font-style: italic;
+     
+ }
+ body { 
+     margin: 0;
+     padding:0;
+  }
+ 
+ #gradient {
+     z-index: -1;
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     width: 100vw;
+     height: 100vh;
+     color: #fff;
+     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+     background-size: 400% 400%;
+     animation: Gradient 15s ease infinite;
+     
+ 
+ }
+
+ #gradient2 {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  
+
+}
+
+#gradient3 {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+ 
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  
+  
+  
+
+}
+ 
+ @keyframes Gradient {
+     0% {
+         background-position: 0% 50%
+     }
+     50% {
+         background-position: 100% 50%
+     }
+     100% {
+         background-position: 0% 50%
+     }
+ }
+ 
+ legend{
+     font-style: italic;
+     text-align: left;
+     font-size: large;
+     font-weight: bolder;
+ }
+ 
+ button{
+     background-color: transparent;
+     border-color: black;
+     transition: 0.7s;
+ 
+ }
+ 
+ input {
+     background-color:transparent;
+     border-color: black;
+     border-style:solid;
+     
+ }
+ 
+ button:hover {
+     background-color:#23D5AB;
+     transition: 0.2s;
+ }
+ 
+ .inp {
+     border:none;
+     border-bottom: 2px solid ;
+     padding: 1px 1px;
+     outline: none;
+  }
+ 
+ 
+   .table{
+    
+    
+     border: 5px solid;
+     border-color: black;
+     border-style: solid;
+     border-bottom:0ch;
+     
+     
+     width: 60%;
+   }
+
+   .table2{
+    
+    
+    border: 3px solid;
+    border-color: black;
+    border-style: solid;
+    
+    
+    
+    width: 60%;
+  }
+
+
+   .score{
+    border: 2px solid;
+    border-color: black;
+    border-style: solid;
+    position:absolute; left:80px; top:30px;
+    border-collapse:collapse
+   
+   }
+ 
+   th{
+     height: 50px;
+     padding: 8px;
+   }
+ 
+   td{
+     text-align: center;
+     
+     
+   }
+ 
+   .center {
+     margin-left: auto;
+     margin-right: auto;
+   }
+ 
+   .po{
+     font-style: italic;
+     
+   }
+ 
+   .questions{
+     font-weight: bold;
+   }
+ 
+   .award{
+     text-align: right;
+   }
+
+   .hr{
+    align-self: center;
+    width: 10%;
+  }
+
+  textarea{
+    background-color:transparent;
+    border-color: black;
+  }
+  
+  hr{
+    
+    border-color: black;
+  }
+  
+ 
+ 
+ 
+ 
+  
