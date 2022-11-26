@@ -93,6 +93,8 @@ label{
      background-color: transparent;
      border-color: black;
      transition: 0.7s;
+     text-decoration: #23A6D5;
+     color: black;
  
  }
  
@@ -217,5 +219,7 @@ label{
     background:#ccc !important; 
     color: black !important;
   }
+
+
  
   
