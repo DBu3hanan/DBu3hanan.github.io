@@ -6,16 +6,31 @@
   
     <title>JEOPARDY</title>
     <link rel="stylesheet" href="groupstyle.css">
-
     <script type="text/javascript" src="groupproject.js"></script>
+
+    
+    
 
     
 </head>
 
-<body>          
-   
-    </div>
-    <div id="jeopardy">
+<body>  
+  
+  <div id="form">
+    <div id="gradient"></div>
+    <br><br><br><br><br> <br><br><br><br><br> <br><br><br><br><br>
+    <center>
+      <h1>Jamaican Jeopardy</h1>
+      
+    <input type="button" value="Play" id="play" onclick="playGame()">
+    <input type="button" value="Instructions" id="Instructions"  onclick="instructions()">
+    </center>
+    
+  </div>
+
+  
+    <!-- GAME DIV -->
+    <div id="jeopardy" hidden> 
       <div id="gradient"></div>
 
         <br><br><br><br><br>
@@ -61,7 +76,7 @@
         <table  class="center table" id="table" >
             <tr>
                 
-                 <th>Jamaican</th>   
+                 <th>History</th>   
                  <th>Food</th> 
                  <th>Sports</th> 
                  <th>Music</th> 
@@ -121,9 +136,9 @@
     
         <!-- CATEGORY 1 QUESTION 1 ANSWERS -->
           <center>
-            <p id="parishq" class="questions test" hidden> How Many Parishes Does Jamaica Have</p>
-           <button id="parish1" class="test" hidden>14</button> 
-           <button id="parish2"class="test" hidden>20</button> 
+            <p id="parishq" class="questions test" hidden> How Many Parishes Did Jamaica Have In 1844</p>
+           <button id="parish1" class="test" hidden>22</button> 
+           <button id="parish2"class="test" hidden>14</button> 
            <button id="parish3" class="test"hidden>26</button> 
            <button id="parish4"class="test" hidden>15</button> 
           </center>
@@ -158,10 +173,10 @@
     
           <!-- CATEGORY 1 QUESTION 5 ANSWERS -->
           <center>
-            <p id="beachq" class="questions test" hidden> How many miles of beaches does Jamaica have</p>
-           <button id="beach1" class="test" hidden>1000 miles</button> 
-            <button id="beach2" class="test" hidden>790 miles</button>
-            <button id="beach3" class="test" hidden>635 miles</button>
+            <p id="beachq" class="questions test" hidden> Who was Jamaica's first native Governor General?</p>
+           <button id="beach1" class="test" hidden>Winston Bligh</button> 
+            <button id="beach2" class="test" hidden>Kenneth Blackburn</button>
+            <button id="beach3" class="test" hidden>Sir Clifford Campbell</button>
           
            
           </center>
@@ -184,15 +199,15 @@
       <!-- CATEGORY 2 QUESTION 3 -->
     <center>
       <p id="dipq" class="questions" hidden>  What do you think "dip and fall back" is</p>
-     <button id="dip1" hidden> Pickled cabbage with corn beef </button> 
       <button id="dip2" hidden> A stew of pickled mackerel with coconut milk  </button>
+      <button id="dip1" hidden> Pickled cabbage with corn beef </button> 
       </center>
     
       <!-- CATEGORY 2 QUESTION 4 -->
     <center>
       <p id="duckq" class="questions" hidden>  What do you think "duckunu" is</p>
-     <button id="duck1" hidden> A dark fruity rum cake  </button> 
       <button id="duck2" hidden> A pudding</button>
+       <button id="duck1" hidden> A dark fruity rum cake  </button> 
       </center>
     
        <!-- CATEGORY 2 QUESTION 5 -->
@@ -204,10 +219,10 @@
     
     <!--CATEGORY 3 QUESTION 1-->
     <center>
-      <p id="winner" class="questions" hidden>Who has won the UEFA CHAMPIONS LEAGUE the most</p>
-      <button id="winner1" hidden>AC Milan</button>
-      <button id="winner2" hidden>Barcelona</button>
-      <button id="winner3" hidden>Real Mdrid</button>
+      <p id="winner" class="questions" hidden>When was Shelly-Ann Fraser Pryce Born</p>
+      <button id="winner1" hidden>January 27, 1986</button>
+      <button id="winner2" hidden>May 26, 1986</button>
+      <button id="winner3" hidden>December 27, 1986</button>
     </center>
           
     <!--CATEGORY 3 QUESTION 2-->
@@ -220,10 +235,10 @@
     
     <!--CATEGORY 3 QUESTION 3-->
     <center>
-      <p id="fastest" class="questions" hidden>From which country does the fastest man and woman come from</p>
-      <button id="fastest1" hidden>Great Britan</button>
-      <button id="fastest2" hidden>Jamaica</button>
-      <button id="fastest3" hidden>USA</button>
+      <p id="fastest" class="questions" hidden>What is the Fastest Time Ran By A Jamaican Woman</p>
+      <button id="fastest1" hidden>10.80 seconds</button>
+      <button id="fastest2" hidden>10.54 seconds</button>
+      <button id="fastest3" hidden>10.62 seconds</button>
     </center>
     
     <!--CATEGORY 3 QUESTION 4-->
@@ -236,10 +251,10 @@
     
     <!--CATEGORY 3 QUESTION 5-->
     <center>
-      <p id="worldcup" class="questions" hidden>Which team hasn't won a World Cup</p>
-      <button id="worldcup1"  hidden>Argentina</button>
-      <button id="worldcup2" hidden>Belgium</button>
-      <button id="worldcup3" hidden>Spain</button>
+      <p id="worldcup" class="questions" hidden>Which Player Has The Most Caps For The Reggae Boyz</p>
+      <button id="worldcup1"  hidden> Luton Shelton</button>
+      <button id="worldcup2" hidden> Ian Goodison</button>
+      <button id="worldcup3" hidden>Leon Bailey</button>
     </center>
     
     
@@ -285,18 +300,12 @@
     
     <!--CATEGORY 4 QUESTIONS 4 for $500-->
     <center>
-      <p id = "barbieq" class = "questions" hidden>True or False : Spice has a song with Nicki Minaj feat Skeng</p>
-      <button id = "barbie1" hidden>True</button>
-      <button id ="barbie2" hidden>False</button>
+      <p id = "barbieq" class = "questions" hidden>Winner of the Jamaican Song Festival in 1971, Who sang "Cherry Oh Baby</p>
+      <button id = "barbie1" hidden>Eric Donaldson</button>
+      <button id ="barbie2" hidden>Pat Kelly</button>
     </center>
 
-    <!--CATEGORY 5 QUESTIONS 2 for $200-->
-    <center>
-      <p id = "titanicq" class = "questions" hidden>What is the name of the last song played on the Titanic</p>
-      <button id = "titanic1" hidden>My Heart Will Go On</button>
-      <button id ="titanic2" hidden>Vision Of Salome</button>
-      <button id ="titanic3" hidden>Nearer, my God, to thee</button>
-    </center>
+   
 
     <!--Category 5 Question 1 for $100-->
     
@@ -315,8 +324,6 @@
     <button id ="greek2" hidden>Hermes</button>
     <button id ="greek3" hidden>Apollo</button>  
     </center>
-    
- 
     
 
     <!--CATEGORY 5 QUESTIONS 3 for $300-->
@@ -338,11 +345,11 @@
 
      <!--CATEGORY 5 QUESTIONS 5 for $500-->
      <center>
-      <p id = "buildingq" class = "questions" hidden>What is the name & height of the tallest building on earth</p>
+      <p id = "buildingq" class = "questions" hidden>What is the name & height of the tallest building in Jamaica</p>
       <button id = "building1" hidden>Merdeka, 830m</button>
-      <button id ="building2" hidden>Burj Khalifa, 828m</button>
-      <button id ="building3" hidden>Shanghai Tower, 835m</button>
-      <button id ="building4" hidden>Burj Khalifa, 830m</button>
+      <button id ="building2" hidden>The Jamaica Pegasus hotel, 60m</button>
+      <button id ="building3" hidden>The Ascent at the Oxford, 76.2m</button>
+      <button id ="building4" hidden>The Jamaica Pegasus hotel, 70m</button>
     </center>
 
 
@@ -357,27 +364,28 @@
         </center>
     
         
-    
         <center>
           <br>
           <button id="answer" class="test"  hidden>Answer</button> 
          </center> 
     
-    
          <hr class="hr">
     
          <center>
            <br><br>
-          <!-- <button id="end" class="end"  hidden>View Stats</button>  -->
+          <button id="end" class="end"  hidden>View Stats</button> 
         
          <button id="playagain" class="playagain"  hidden>Play Again</button> 
          <input type="button" value="Instructions" id="Instructions"  onclick="instructions2()">
+         <!-- <input type="button" value="Level 2" id="level2"  onclick="level2()"> -->
         </center> 
     
        
        
     </div>
 
+
+    <!-- INSTRUCTIONS DIV -->
     <div id="instructions" hidden>
       <div id="gradient2"></div>
 
@@ -395,8 +403,8 @@
             <p>The game was engineered as a spin off of the popular game show Jeopardy and hence it is played similarly</p>
             <p>Click the money value from the category you desire, select your answer and then press the Answer button.</p>
             <p>If you select the Answer button first, the game will break</p>
-            <!-- <p>The View Stats button brings you back to the Registration form to show you your Statistics</p> -->
-            <p>The Play Again button erases all Statistics</p>
+            <p>The View Stats button brings you to the Statistics page to show you your Statistics</p>
+            <p>The Play Again button restarts all Statistics but does not erase them</p>
             <!-- <p>You do not need to enter your name to be eligable to play, however if you want the gameplay personalized it is recommened</p> -->
             <!-- <p>The End Game button refreshes the page and erases all Statistics</p> -->
           </td>
@@ -412,6 +420,135 @@
       </center>
       
     </div>
+
+     <!-- STATS DIV -->
+    <div id="Statistics" hidden>
+      <div id="gradient2"></div>
+  
+      <br><br><br><br><br><br><br><br><br>
+      <br><br><br>
+      <center>
+        <i>
+          <h1>Statistics</h1> 
+        </i>
+      </center>
+     
+      <center>
+        <table class="table3">
+        <tr>
+          <td>
+            <p id="showpercentage">When you play the game your Statistics will show up here</p>
+           
+          </td>
+        </tr>
+      </table>
+  
+      <br><br>
+    
+      
+      <input type="button" value="Play Game" id="play" onclick="playGame()">
+      
+  
+      </center>
+      
+    </div>
+  
+  <!-- LEVEL 2 -->
+    <div id="div2" hidden>
+      
+      <table class="score" border cellpadding="4">
+        <tr>
+          <td>  
+            <p id="questionsamount2" class="questions" style="display:inline">Correct</p>
+          </td>
+          <td>
+            <p id="wrong2" style="display:inline" class="questions">wrong</p> 
+          </td>
+          <td>
+            <p id="answered2" style="display:inline" class="questions">Answered</p> 
+          </td>
+  
+          <td>
+            <p id="Percentage2" style="display:inline" class="questions">Perc</p>
+            
+          </td>
+        </tr>
+      </table>
+      <div id="gradient"></div>
+      
+<br><br><br><br><br><br><br><br><br><br><br>
+      <center>
+
+        <p id="playertotal2"  class="questions ">PlayerTotal: </p>
+      </center>
+
+  
+      
+     <table class="center table" id="table">
+
+      
+
+
+            <tr>
+                
+                 <th>Politics</th>   
+                 <th>Food</th> 
+                 <th>Music</th> 
+                 <th>General</th>    
+            </tr>
+    
+            <tr>
+                <td> <button id="6Q1"class="tableb">$100</button></td>
+                <td><button id="7Q1"class="tableb">$100</button></td>
+                <td><button id="8Q1"class="tableb">$100</button></td>
+                <td><button id ="9Q1"class="tableb">$100</button></td>
+            </tr>
+    
+            
+       </table> 
+       
+       <br><br><br><br>
+       
+       
+       <!-- CATEGORY 1 QUESTION 1 ANSWERS -->
+       <center>
+        <p id="ruelq" class="questions test" hidden> How Much Money Did Ruel Reid Steal</p>
+        <button id="ruel1" class="test" hidden>10 M</button> 
+       <button id="ruel2"class="test" hidden>70 M</button> 
+       <button id="ruel3" class="test"hidden>50 M</button> 
+       <button id="ruel4"class="test" hidden>20 M</button> 
+      </center>
+
+     
+
+      <br><br>
+      <center>
+       <button id="answer2" class="test"  hidden>Answer</button> <br>
+
+
+        <hr class="hr">
+       <input type="button" value="Level 1" id="play" onclick="playGame()"><br><br>
+       <input type="button" value="Instructions" id="Instructions"  onclick="instructions2()">
+
+      </center>
+
+
+      <center>
+        <small>
+          <p>This section is currently under construction</p>
+        </small>
+        
+      </center>
+      
+      
+       
+    
+
+    </div>
+
+    
+
+
 
   
     
