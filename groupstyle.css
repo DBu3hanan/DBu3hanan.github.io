@@ -216,9 +216,8 @@ label{
   
  
  
-  input[type=submit]:hover {
-    background:#ccc !important; 
-    color: black !important;
+  input{
+    color: black;
   }
 
 
