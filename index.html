@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Mind </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="carousesls.css">
+    <script src="content.js"></script>
+
+<style>
+</style>
+</head>
+<body>
+	<div style="top: 40%;" class="">
+            <!-- <a href="/" style="right:9px; display: inline; float: left; padding: 6px; text-decoration: none; padding: 7px; color:#ffffff; font-size: 40px; ">Marine Mind</a> -->
+		<!-- <p style="float: Right; display: inline; margin: 1% 60%;">Help</p> -->
+		<p style=" display: inline; float: right;">&ensp;</p>
+		<!-- <p style=" display: inline; float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> -->
+			 
+		<!-- <input type="text" placeholder="Search" id="search" style=" border:19px; display: inline; float: right; text-decoration: none; padding: 10px; margin: 7px; border-color: goldenrod;"> -->
+		<input id="searchbar" onkeyup="search_content()" type="text"
+		name="search" placeholder="Search" style="border:19px; display: inline; float: right; text-decoration: none; padding: 10px; margin: 7px; 
+		border-color: whitesmoke; width: 7%; color:#0F1B33;margin-top: 1.45%; background-color: transparent; border-bottom: solid;">    
+	
+	<nav>
+	
+		<ul>
+		<p style=" display: inline; float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<a href="News.html" style=" display: inline; float: right; text-decoration: none;color:#0F1B33; margin-top: .5%; border-bottom: solid;">News</a>
+		<p style=" display: inline; float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<a href="Help.html" style=" display: inline; float: right; padding: 1.5px; text-decoration: none; padding: 17px; color:#0F1B33; margin-top: .5%; border-bottom: solid; ">Help</a>
+		<p style=" display: inline; float: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<a href="Help.html" style=" display: inline; float: right; padding: 1.5px; text-decoration: none; padding: 17px; color: #0F1B33; margin-top: .5%; border-bottom: solid;">About</a>
+		</ul>
+		
+
+	<select class="topselect">
+		<option value="" selected="selected">Select</option> 
+		<option value="">About</option>
+		<option value="">Help</option>
+		<option value="">News</option>
+	</select>
+	</nav>		
+	</div>
+   
+<!-- endheaderdiv -->
+
+<div class="" >
+<h1 style="position: absolute;top: 21%;left: 28%; font-size: 100px; font-family: 'Courier New', Courier, monospace; font-size: 7vw;">MARINE MIND</h1>
+</div>
+<nav>
+	<ul>
+	<button onmouseover="bigImg(this)" onmouseout="normalImg(this)" onclick="dictonary()" class="btn column" 
+	style="font-weight: bold;  display: inline; position: absolute;top: 49%;left: 45%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);
+	background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Dictonary</button>
+	
+	<button onclick="animaldata()" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="btn column" style="font-weight: bold; display: inline; position: absolute;top: 49%;left: 56%;
+	transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;
+	cursor: pointer;border-radius: 5px;">Animal Database</button>
+
+	<button onclick="facts()" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="btn column" 
+	style="font-weight: bold;  display: inline; position: absolute; top: 49%;left: 36.5%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);background-color: #0F1B33;
+	color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Facts</button>
+
+	<button onclick="gallery()" onmouseover="bigImg(this)" onmouseout="normalImg(this)" class="btn column" 
+	style="font-weight: bold; display: inline; position: absolute;top: 49%;left: 66%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);
+	background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Gallery</button>
+	</ul>
+
+	<!-- <select class="undertitle">
+		<option value="" selected="selected">Select</option> 
+		<option value="">Facts</option>
+		<option value="">Dictionary</option>
+		<option value="">Animal Database</option>
+		<option value="">Gallery</option>
+	</select> -->
+
+	
+	<div class="dis-div">
+
+	<button onclick="facts()" class="btn column" 
+	style="font-weight: bold;  display: inline; position: absolute; top: 59%;left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);background-color: #0F1B33;
+	color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Facts</button>
+
+	<button  onclick="dictonary()" class="btn column" 
+	style="font-weight: bold;  display: inline; position: absolute;top: 39%;left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);
+	background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Dictonary</button>
+	
+	<button onclick="animaldata()" class="btn column" style="font-weight: bold; display: inline; position: absolute;top: 49%;left: 50%;
+	transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;
+	cursor: pointer;border-radius: 5px;">Animal Database</button>
+	
+
+	<button onclick="gallery()" class="btn column" 
+	style="font-weight: bold; display: inline; position: absolute;top: 68%;left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);
+	background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;cursor: pointer;border-radius: 5px;">Gallery</button>
+	</div>
+	
+	
+
+
+	<p class="dis-p content">Hello</p>
+	
+
+</nav>
+
+</body>
+
+<style>
+
+.typewriter h1 {
+  /* overflow: hidden;  */
+  /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange;  */
+  /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* margin: 0 auto;  */
+  /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em;  */
+  /* Adjust as needed */
+  animation: 
+    typing 2s steps(7, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+} */
+
+
+	html, body { 
+		margin: 0; 
+		padding: 0;  
+		grid-template-rows: 500px 100px;
+		grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+		background-color: #0F1B33 ;
+		background-image: url("Images/37130.jpg");
+		background-attachment: fixed;
+    	background-size: cover;
+	} 
+
+	/* input[type=radio] {
+  	display: none;
+	} */
+
+	p{
+		margin-left: .5%;
+	}
+
+   
+    .headerdiv{
+		background-color: #09B1ec ;
+		/* width: auto; */
+		top: 0;
+		/* position: relative; */
+		left: 0;
+		/* z-index: 999; */
+		width: 100%;
+		height: 70px;
+		/* border: solid; */
+		/* top:0px; */
+		/* display:inline-block;  */
+		/* float: inline-start;
+		float: inline-end; */
+	}
+
+    .topdiv{
+		/* background-color: #9b5151  ; */
+		background-color: antiquewhite;
+		/* background-color: rgb(41, 41, 161); */
+		/* width: auto; */
+		/* top: 8.9%; */
+		position: relative;
+		top:0;
+		left: 0;
+		z-index: 999;
+		width: 100%;
+		/* height: 70%; */
+		/* border: solid; */
+		/* display:inline-block;  */
+		float: inline-start;
+		float: inline-end;
+    }
+
+    .middlediv{
+		/* background-color: #9b5151  ; */
+		background-color: rgb(180, 148, 107);
+		/* width: auto; */
+		/* top: 79%; */
+		position: relative;
+		left: 0;
+		/* z-index: 999; */
+		width: 100%;
+		/* height: 70%; */
+		/* display: block; */
+		/* border: solid; */
+		/* display:inline-block;  */
+		float: inline-start;
+		float: inline-end;
+	}
+
+	.footerdiv{
+		/* background-color: #9b5151  ; */
+		background-color: rgb(255, 172, 63);
+		/* width: auto; */
+		/* top: 149%; */
+		position: absolute;
+		display:inline-block; 
+		left: 0;
+		width: 100%;
+		/* height: 20%; */
+		/* display: block; */
+		/* border: solid; */
+		/* float: inline-start;
+		float: inline-end; */
+        display:inline-block; 
+	}
+
+    a{
+        padding: 17px;
+        color: black;
+        font-weight: bold;
+
+    }
+
+	input{
+		border-color: black;
+		background-color: ghostwhite;
+		border-radius: 10px;
+	}
+
+    .videobox{
+		width: 15%;
+		height: 40px;
+		border-radius: 3px;
+		box-shadow: 2px;
+		border: solid;
+		margin-left: .5%;
+	}
+
+	.card {
+		position: absolute;
+		width: 60%;
+		height: 100%;
+		left: 0;
+		right: 0;
+		margin: auto;
+		transition: transform .4s ease;
+		cursor: pointer;
+	}
+
+	nav select {
+  	display: none;
+}
+
+/* greater than or equal to 900px */
+@media (max-width: 900px) { 
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+  h1{font-size: 20%; text-align: center;}
+  .column {width: 29%;}
+
+  .dis-p{
+	display: none;
+	color: green;
+	
+  }
+
+  
+}
+/* less than or equal to 900px */
+@media (min-width:900px){
+	.dis-div{
+	display: none;
+	visibility: hidden;
+	/* text-align: center; */
+  }
+}
+
+/* less than or equal to 900px */
+/* @media (min-width:900px){
+	nav ul     { display: inline-block; }
+	nav select { display: none; }
+	h1{font-size: 20%; text-align: center;}
+  .column {width: 8%;}
+
+} */
+
+@media only screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+  }
+
+  .dis-p{
+	/* color: yellow; */
+	display: inline-block;
+	visibility: hidden;
+	color: red;
+  }
+}
+ 
+.topselect{
+	float: right;
+	width: 20%;
+	height: 40px;
+	background-color: transparent;
+	border-bottom: solid;
+	border: solid black;
+	margin: 5px 3% 1px;
+	color:#827575;
+	font-weight: bold;
+	border-radius: 10px;
+	
+}
+
+input{
+	color: black;
+}
+
+.undertitle{
+	/* font-weight: bold; display: inline; position: absolute;top: 35%;left: 54%;
+	transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);background-color: #0F1B33;color: #A1E5D8;font-size: 16px;padding: 12px 24px;border: none;
+	cursor: pointer;border-radius: 5px;width: 25%; */
+
+	/* float: right;
+	width: 20%;
+	height: 40px;
+	background-color: #0F1B33;
+	border-bottom: solid;
+	border: solid black;
+	margin: 250px -1% 1px;
+	color:#A1E5D8;
+	font-weight: bold;
+	border-radius: 8px;
+	top: 95%;left: 54%; */
+	
+}
+</style>
+</html>
