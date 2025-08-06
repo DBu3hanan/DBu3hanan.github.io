@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #B9F2FF;
 }
 
 header {
@@ -21,14 +22,16 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
     nav ul li a {
         text-decoration: none;
-        color: #333;
+        color: black;
         font-weight: bold;
-        text-decoration:none;
+        text-decoration: none;
+        font-family: "Roboto Condensed", sans-serif;
+       
     }
 
         nav ul li a:hover {
@@ -99,8 +102,9 @@ footer {
     display: block;
 }
 
-    .site-title{
-        visibility:hidden;
+    .site-title {
+        visibility: hidden;
+        font-family: Archivo Black;
     }
 
 
