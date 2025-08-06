@@ -159,6 +159,16 @@ color: black;
     
 }
 
+.Contact-Box {
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 12px;
+    border: 1px solid white;
+    background-color: white;
+    width: 39%;
+    /*    display:flex;*/
+}
+
 .Article-button{
     background-color:white;
     padding:10px;
