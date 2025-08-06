@@ -36,7 +36,7 @@ nav ul {
         }
 
 main {
-    padding: 20px;
+    padding:30px;
 }
 
 footer {
@@ -135,7 +135,7 @@ footer {
 }
 
 .Bio-Heading,.Bio-Sub-Heading{
-color: white;
+color: black;
 }
 
 .Bio-Text {
