@@ -131,13 +131,18 @@ footer {
 
 
 .container-infobox-left { /* display: flex; */
-    max-width: 900px;    
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
     border-radius: 2px;
-
-    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     font-weight: normal;
 }
+
+
+
 
 .Bio-Heading,.Bio-Sub-Heading{
 color: black;
