@@ -43,9 +43,10 @@ main {
 }
 
 footer {
-    background-color: #f4f4f4;
+    
     text-align: center;
     padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar{
@@ -162,8 +163,9 @@ color: black;
 .Contact-Box {
     box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.1);
     margin: 5px;
-    padding: 12px;
-    border: 1px solid white;
+    
+    padding: 22px;
+    border: 2px solid white;
     background-color: white;
     width: 39%;
     /*    display:flex;*/
