@@ -170,11 +170,20 @@ color: black;
     /*    display:flex;*/
 }
 
-.Article-button{
-    background-color:white;
-    padding:10px;
-    border:0px;
-    text-decoration:none;
+.DB-Title {
+    text-decoration: none;
+    color: black;
+}
+
+.li-GoldenRod {
+    color: goldenrod;
+}
+
+.Article-button {
+    background-color: white;
+    padding: 10px;
+    border: 0px;
+    text-decoration: none;
 }
 
     .Article-button:hover {
