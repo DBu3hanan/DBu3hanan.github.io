@@ -163,7 +163,6 @@ color: black;
 .Contact-Box {
     box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.1);
     margin: 5px;
-    
     padding: 22px;
     border: 2px solid white;
     background-color: white;
@@ -189,6 +188,10 @@ color: black;
     header {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .Contact-Box {
+        width: 70%;
     }
 
     nav ul {
