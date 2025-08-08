@@ -91,6 +91,9 @@ footer {
     margin-left: 45%;
 }
 
+.color-black{
+    color:black;
+}
 /* Hamburger Icon */
 .hamburger {
     display: none;
