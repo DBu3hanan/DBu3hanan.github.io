@@ -1,4 +1,4 @@
-document.getElementById("Bio-Text-Overview").innerHTML = "Diamond A. Buchanan is a Jamaican computing student with a passion for web development, writing and photography. <br><br> Birth Month: March<br> Star Sign: Aries <br> Hometown: St. Catherine, Jamaica<br>Favourite Programming Language: C";
+document.getElementById("Bio-Text-Overview").innerHTML = "Diamond A. Buchanan is a Jamaican computing student with a passion for web development, writing and photography.";
 
 
 document.getElementById("Bio-Text-Overview").innerHTML
