@@ -6,3 +6,5 @@ document.getElementById("Bio-Text-ProfessionalLife").innerHTML = " Diamond Bucha
 
 
 document.getElementById("Bio-Text-Hobbies").innerHTML = "Diamond's hobbies include: <ol> <li>Cinematography</li> <li> Environmental duties</li ><li>Gaming</li><li>Photography</li><li>Volunteering</li><li>Web Development</li><li>Writing literary and Fiction works</li></ol>"
+
+document.getElementById("Bio-Text-PersonalQuote").innerHTML = "Every Decision I Make Must Be A Tribute To My Past Self and A Gift To My Future"
