@@ -1,31 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
-
-
-<?xml version='1.0' encoding='UTF-8'?>
+﻿<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://youngjamaicanspeaks.blogspot.com/2025/08/should-you-attend-university-of-technology-jamaica.html</loc>
-		<lastmod>2025-08-03T22:06:14Z</lastmod>
+		<loc>https://dbu3hanan.github.io/</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>https://youngjamaicanspeaks.blogspot.com/2025/04/what-ive-learned-about-adsense-so-far.html</loc>
-		<lastmod>2025-08-07T19:58:54Z</lastmod>
+		<loc>https://dbu3hanan.github.io/Pages/DB-Biography.html</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://youngjamaicanspeaks.blogspot.com/2024/07/racism-and-classism-in-jamaica-2024.html</loc>
-		<lastmod>2025-08-07T19:52:09Z</lastmod>
+		<loc>https://dbu3hanan.github.io/Pages/DB-Projects.html</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://youngjamaicanspeaks.blogspot.com/2024/07/the-puzzle-of-happiness-2024-poem.html</loc>
-		<lastmod>2024-07-09T23:46:07Z</lastmod>
+		<loc>https://dbu3hanan.github.io/Pages/DB-Blog.html</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://youngjamaicanspeaks.blogspot.com/2024/07/my-experience-in-hurricane-beryl-2024.html</loc>
-		<lastmod>2025-04-10T04:02:25Z</lastmod>
+		<loc>https://dbu3hanan.github.io/Pages/Contact.html</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://youngjamaicanspeaks.blogspot.com/2024/07/getting-your-drivers-license-in-jamaica.html</loc>
-		<lastmod>2025-08-07T20:07:11Z</lastmod>
+		<loc>https://dbu3hanan.github.io/Articles/The-Population-Crisis-is-a-scam</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://dbu3hanan.github.io/Articles/getting-your-drivers-license-in-jamaica</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://dbu3hanan.github.io/Articles/what-ive-learned-about-adsense-as-a-jamaican-publisher</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://dbu3hanan.github.io/Articles/racism-and-classism-in-jamaica.html</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://dbu3hanan.github.io/Stories/New-Years-Resolutions-Story</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.64</priority>
+	</url>
+	<url>
+		<loc>https://dbu3hanan.github.io/Pages/DB-Achievements.html</loc>
+		<lastmod>2025-08-08T22:00:50+00:00</lastmod>
+		<priority>0.51</priority>
 	</url>
 </urlset>
