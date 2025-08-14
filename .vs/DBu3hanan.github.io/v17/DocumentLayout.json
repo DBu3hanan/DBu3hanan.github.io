@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\the-ridiculous-car-prices-in-jamaica.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Articles\\the-ridiculous-car-prices-in-jamaica.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Biography.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\DB-Biography.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\JS\\Javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JS\\Javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\Template (3).html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Javascript.js",
+              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\JS\\Javascript.js",
+              "RelativeDocumentMoniker": "JS\\Javascript.js",
+              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\JS\\Javascript.js",
+              "RelativeToolTip": "JS\\Javascript.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-10T18:39:19.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DB-Biography.html",
+              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Biography.html",
+              "RelativeDocumentMoniker": "Pages\\DB-Biography.html",
+              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Biography.html",
+              "RelativeToolTip": "Pages\\DB-Biography.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-10T18:39:06.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Template (3).html",
               "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\Template (3).html",
               "RelativeDocumentMoniker": "Articles\\Template (3).html",
@@ -42,21 +72,7 @@
               "RelativeToolTip": "Articles\\Template (3).html",
               "ViewState": "AgIAAA4AAAAAAAAAAAAUwCgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-09T23:19:37.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "the-ridiculous-car-prices-in-jamaica.html",
-              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\the-ridiculous-car-prices-in-jamaica.html",
-              "RelativeDocumentMoniker": "Articles\\the-ridiculous-car-prices-in-jamaica.html",
-              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\the-ridiculous-car-prices-in-jamaica.html",
-              "RelativeToolTip": "Articles\\the-ridiculous-car-prices-in-jamaica.html",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-09T23:19:33.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T23:19:37.293Z"
             }
           ]
         }
