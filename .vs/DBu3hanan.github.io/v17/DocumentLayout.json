@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Biography.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\DB-Biography.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\getting-your-drivers-license-in-jamaica.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Articles\\getting-your-drivers-license-in-jamaica.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\JS\\Javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JS\\Javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\CSS\\Style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\Style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\Template (3).html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Articles\\Template (3).html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\DB-Blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\DB-Projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,40 +43,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Javascript.js",
-              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\JS\\Javascript.js",
-              "RelativeDocumentMoniker": "JS\\Javascript.js",
-              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\JS\\Javascript.js",
-              "RelativeToolTip": "JS\\Javascript.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAwAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-10T18:39:19.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DB-Biography.html",
-              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Biography.html",
-              "RelativeDocumentMoniker": "Pages\\DB-Biography.html",
-              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Biography.html",
-              "RelativeToolTip": "Pages\\DB-Biography.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-10T18:39:06.653Z",
+              "Title": "Style1.css",
+              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\CSS\\Style1.css",
+              "RelativeDocumentMoniker": "CSS\\Style1.css",
+              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\CSS\\Style1.css",
+              "RelativeToolTip": "CSS\\Style1.css",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAuwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-22T00:02:31.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Template (3).html",
-              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\Template (3).html",
-              "RelativeDocumentMoniker": "Articles\\Template (3).html",
-              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\Template (3).html",
-              "RelativeToolTip": "Articles\\Template (3).html",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCgAAAAQAAAAAAAAAA==",
+              "Title": "DB-Blog.html",
+              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Blog.html",
+              "RelativeDocumentMoniker": "Pages\\DB-Blog.html",
+              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Blog.html",
+              "RelativeToolTip": "Pages\\DB-Blog.html",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwDMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-09T23:19:37.293Z"
+              "WhenOpened": "2025-08-21T23:59:44.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DB-Projects.html",
+              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Projects.html",
+              "RelativeDocumentMoniker": "Pages\\DB-Projects.html",
+              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Pages\\DB-Projects.html",
+              "RelativeToolTip": "Pages\\DB-Projects.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-21T23:59:31.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "getting-your-drivers-license-in-jamaica.html",
+              "DocumentMoniker": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\getting-your-drivers-license-in-jamaica.html",
+              "RelativeDocumentMoniker": "Articles\\getting-your-drivers-license-in-jamaica.html",
+              "ToolTip": "C:\\Users\\winte\\source\\repos\\DBu3hanan.github.io\\Articles\\getting-your-drivers-license-in-jamaica.html",
+              "RelativeToolTip": "Articles\\getting-your-drivers-license-in-jamaica.html",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-14T01:54:36.546Z",
+              "EditorCaption": ""
             }
           ]
         }
