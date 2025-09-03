@@ -1,4 +1,4 @@
-document.getElementById("Bio-Text-Overview").innerHTML = "Diamond A. Buchanan is a Jamaican computing student with a passion for web development, writing and photography.";
+document.getElementById("Bio-Text-Overview").innerHTML = "Diamond A. Buchanan is a Jamaican computing graduate with a passion for web development, writing and photography. Diamond is also a Computing Teacher at the St. Andrew High School for Girls";
 
 
 document.getElementById("Bio-Text-Overview").innerHTML
