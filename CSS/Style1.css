@@ -149,18 +149,26 @@ footer {
     max-width: 900px;
     margin: 0 auto;
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 16px;
     padding: 10px;
-    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     font-weight: normal;
 }
 
+.container-infobox-left-header {
+    font-size:50px;
+    font-family: "Imbue", serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap');
 
 
 
-.Bio-Heading,.Bio-Sub-Heading{
-color: black;
+
+.Bio-Heading, .Bio-Sub-Heading {
+    color: black;
 }
 
 .Bio-Text {
