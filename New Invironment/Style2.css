@@ -1,5 +1,5 @@
-.container-infobox-left {
-    display: flex;
+.container-infobox-left { 
+     display: flex; 
     max-width: 100%;
     margin: 0 auto;
     background-color: #fff;
@@ -9,38 +9,30 @@
     font-weight: normal;
 }
 
-.article-header {
-    background-color: #B9F2FF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-}
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #B9F2FF;
 }
 
-a {
-    
-}
-
-.article-link{
-    
-}
-
 .Contact-Box-Header {
     font-style: italic;
 }
 
-header {
-    background-color: #f4f4f4;
+
+.article-header {
+    background-color: #B9F2FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 25px 30px;
+}
+header {
+    background-color: #B9F2FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
 }
 
 .site-title {
@@ -70,7 +62,7 @@ nav ul {
         }
 
 main {
-    padding:30px;
+/*    padding:30px;*/
 }
 
 footer {
@@ -83,7 +75,7 @@ footer {
 .navbar{
     padding: 20px;
     display: flex;
-    gap: 50px;
+/*    gap: 50px;*/
     font-size: 20px;
     /* margin-left: 55%;
     */
@@ -165,37 +157,13 @@ footer {
 
 
 
-/*.container-infobox-left-header {*/
-/*    font-size:50px;*/
-    /*font-family: "Imbue", serif;
-}*/
-
 
 @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap');
 
 
 
 
-.Bio-Heading, .Bio-Sub-Heading {
-    color: black;
-}
 
-.Bio-Text {
-    padding: 15px;
-    line-height:1.5;
-
-}
-
-.Articles-Box {
-    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.1);
-    margin: 5px;
-    padding: 9px;
-    border: 1px solid white;
-    background-color: gold;
-    width:39%;
-/*    display:flex;*/
-    
-}
 
 .Contact-Box {
     box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.1);
@@ -207,36 +175,11 @@ footer {
     /*    display:flex;*/
 }
 
-.DB-Title {
-    text-decoration: none;
-    color: black;
-}
-
-.li-GoldenRod {
-    color: goldenrod;
-}
-
-.Article-button {
-    background-color: white;
-    padding: 10px;
-    border: 0px;
-    text-decoration: none;
-}
-
-    .Article-button:hover {
-        background-color: grey;
-        cursor:pointer;
-    }
 
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .article-header {
         flex-direction: column;
         align-items: flex-start;
     }
