@@ -17,6 +17,24 @@
     padding: 15px 30px;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    background-color: #B9F2FF;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.next-article-link{
+    text-decoration:none;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
