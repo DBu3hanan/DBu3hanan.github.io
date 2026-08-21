@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\CSS\\Style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\Style1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\dropdown.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Articles\\dropdown.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\jamaica-is-not-angry-enough-about-pedophilia.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Articles\\jamaica-is-not-angry-enough-about-pedophilia.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\unrealistic-solutions-to-societal-problems.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Articles\\unrealistic-solutions-to-societal-problems.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\CSS\\Biography.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSS\\Biography.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Pages\\DB-Biography.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\DB-Biography.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Pages\\DB-Blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\DB-Blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,54 +42,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "unrealistic-solutions-to-societal-problems.html",
-              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\unrealistic-solutions-to-societal-problems.html",
-              "RelativeDocumentMoniker": "Articles\\unrealistic-solutions-to-societal-problems.html",
-              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\unrealistic-solutions-to-societal-problems.html",
-              "RelativeToolTip": "Articles\\unrealistic-solutions-to-societal-problems.html",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDYAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "dropdown.html",
+              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\dropdown.html",
+              "RelativeDocumentMoniker": "Articles\\dropdown.html",
+              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\dropdown.html",
+              "RelativeToolTip": "Articles\\dropdown.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-08-20T05:57:28.563Z",
+              "WhenOpened": "2026-08-21T03:36:59.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jamaica-is-not-angry-enough-about-pedophilia.html",
+              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\jamaica-is-not-angry-enough-about-pedophilia.html",
+              "RelativeDocumentMoniker": "Articles\\jamaica-is-not-angry-enough-about-pedophilia.html",
+              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\jamaica-is-not-angry-enough-about-pedophilia.html",
+              "RelativeToolTip": "Articles\\jamaica-is-not-angry-enough-about-pedophilia.html",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-21T03:28:20.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Biography.css",
-              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\CSS\\Biography.css",
-              "RelativeDocumentMoniker": "CSS\\Biography.css",
-              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\CSS\\Biography.css",
-              "RelativeToolTip": "CSS\\Biography.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-20T05:31:54.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Style1.css",
-              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\CSS\\Style1.css",
-              "RelativeDocumentMoniker": "CSS\\Style1.css",
-              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\CSS\\Style1.css",
-              "RelativeToolTip": "CSS\\Style1.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-20T05:28:16.727Z",
+              "Title": "unrealistic-solutions-to-societal-problems.html",
+              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\unrealistic-solutions-to-societal-problems.html",
+              "RelativeDocumentMoniker": "Articles\\unrealistic-solutions-to-societal-problems.html",
+              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Articles\\unrealistic-solutions-to-societal-problems.html",
+              "RelativeToolTip": "Articles\\unrealistic-solutions-to-societal-problems.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-08-21T03:28:06.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DB-Biography.html",
-              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Pages\\DB-Biography.html",
-              "RelativeDocumentMoniker": "Pages\\DB-Biography.html",
-              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Pages\\DB-Biography.html",
-              "RelativeToolTip": "Pages\\DB-Biography.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Title": "DB-Blog.html",
+              "DocumentMoniker": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Pages\\DB-Blog.html",
+              "RelativeDocumentMoniker": "Pages\\DB-Blog.html",
+              "ToolTip": "C:\\Users\\winte\\OneDrive\\Desktop\\DEVELOPER\\DBu3hanan.github.io\\Pages\\DB-Blog.html",
+              "RelativeToolTip": "Pages\\DB-Blog.html",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwD8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-08-20T05:25:21.763Z"
+              "WhenOpened": "2026-08-21T02:26:00.71Z",
+              "EditorCaption": ""
             }
           ]
         }
